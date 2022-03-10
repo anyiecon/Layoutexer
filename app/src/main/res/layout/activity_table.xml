@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Table" >
+
+    <TableRow
+        android:padding="10dp"
+        android:gravity="center"
+        tools:ignore="MissingConstraints,UselessLeaf">
+
+        <TextView
+            android:id="@+id/textViewLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Login"
+            android:textSize="40sp"
+            android:textColor="#EDC7C7"
+            android:textStyle="bold"
+            tools:ignore="HardcodedText" />
+
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="20sp"
+        tools:ignore="MissingConstraints">
+        <TextView
+            android:id="@+id/textViewNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre"
+            android:textSize="20dp"
+            android:textColor="#E1C8C8"
+            android:layout_marginLeft="20dp"
+            tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+
+        <EditText
+            android:id="@+id/editTextNombre"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            tools:ignore="Autofill,LabelFor,TextFields" />
+
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="20sp"
+        tools:ignore="MissingConstraints">
+        <TextView
+            android:id="@+id/textViewPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textSize="20dp"
+            android:textColor="#E1C8C8"
+            android:layout_marginLeft="20dp"
+            tools:ignore="HardcodedText,RtlHardcoded,SpUsage" />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            tools:ignore="Autofill,LabelFor,TextFields" />
+
+    </TableRow>
+    <TableRow
+        android:gravity="center"
+        android:layout_marginTop="20sp"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enviar"
+            android:layout_span="2"
+            tools:ignore="HardcodedText" />
+
+    </TableRow>
+
+</TableLayout>
